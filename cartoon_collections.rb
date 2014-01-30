@@ -8,7 +8,7 @@ dwarves = [
   "Happy"
 ]
 
-# Role call for the next mining shift!
+# Roll call for the next mining shift!
 #
 # Print out the following list using `puts`:
 # 1. Doc
@@ -18,11 +18,11 @@ dwarves = [
 #
 # Use the each_with_index iterator:
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-each_with_index
-def number_the_dwarves(dwarves)
+def roll_call_dwarves(dwarves)
   # Your code goes here.
 end
 
-number_the_dwarves(dwarves)
+roll_call_dwarves(dwarves)
 
 # Give the planeteer calls some heart!
 #
