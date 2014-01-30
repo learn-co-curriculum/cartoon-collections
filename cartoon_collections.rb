@@ -41,7 +41,9 @@ planeteer_calls = %w(earth wind fire water heart)
 
 # Expected return value: ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 def summon_captain_planet(planeteer_calls)
-  # Your code goes here.
+  planeteer_calls.map do |call|
+    call.capitalize + "!"
+  end
 end
 
 summon_captain_planet(planeteer_calls)
