@@ -9,9 +9,11 @@ describe "Cartoon Collections" do
         number_the_dwarves(dwarves)
       end
 
+      # This regex allows for up 0-2 arbitrary
+      # characters between the number and the name
       expect(output).to match /1.?.?Dopey/
       expect(output).to match /2.?.?Grumpy/
-      expect(output).to match /2.?.?Bashfuk/
+      expect(output).to match /2.?.?Bashful/
     end
   end
 end
