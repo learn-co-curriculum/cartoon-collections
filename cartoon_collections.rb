@@ -8,7 +8,7 @@ dwarves = [
   "Happy"
 ]
 
-# Role call for the next mining shift!
+# Roll call for the next mining shift!
 #
 # Print out the following list using `puts`:
 # 1. Doc
@@ -24,7 +24,7 @@ def number_the_dwarves(dwarves)
   end
 end
 
-number_the_dwarves(dwarves)
+roll_call_dwarves(dwarves)
 
 # Give the planeteer calls some heart!
 #
