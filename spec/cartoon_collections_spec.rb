@@ -22,9 +22,9 @@ describe "Cartoon Collections" do
       words = %w(apple banana orange)
 
       result = summon_captain_planet(words)
-      expect(result).to match /Apple!/ 
-      expect(result).to match /Banana!/ 
-      expect(result).to match /Orange!/ 
+      expect(result).to include 'Apple!'
+      expect(result).to include 'Banana!'
+      expect(result).to include 'Orange!'
     end
   end
 end
