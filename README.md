@@ -1,5 +1,5 @@
 ---
-  tags: iteration, map, collection, each_with_index, wip
+  tags: enumerable, iteration, map, collection, each_with_index, wip
   languages: ruby
 ---
 
