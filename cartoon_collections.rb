@@ -43,3 +43,9 @@ def summon_captain_planet(planeteer_calls)
 end
 
 summon_captain_planet(planeteer_calls)
+
+# TODO
+
+# 1. any?
+# 2. find/detect
+# 3. inject
