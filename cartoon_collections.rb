@@ -44,8 +44,35 @@ end
 
 summon_captain_planet(planeteer_calls)
 
-# TODO
+# We want to find out how many planeteer_calls have more than 5 characters 
+# including the exclamation point. 
+#
+# Use the any? iterator 
+# http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-any-3F
 
-# 1. any?
-# 2. find/detect
+def long_planeteer_calls(planeteer_calls)
+  # Your code goes here.
+end
+
+long_planeter_calls(planeteer_calls)
+
+# Use the find method to determine which planeteer_calls are divisable by 3.
+#
+# Use the find method
+# http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-find
+
+def planeteer_calls_divisible_by_3(planeteer_calls)
+  # Your code goes here
+end
+
+# Now find the first planeteer_call that is divisable by three
+#
+# Use the detect method
+# http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-detect
+
+def frist_planeteer_call_divisible_by_3(planeteer_calls)
+  
+end
+
+
 # 3. inject
