@@ -49,47 +49,48 @@ end
 summon_captain_planet(planeteer_calls)
 
 # The planeteer_calls are supposed to be short, so we want to 
-# find out if any of our calls have more than 5 characters 
+# find out if any of our calls have more than 4 characters 
 # including the exclamation point. 
 #
 # Use the any? iterator 
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-any-3F
 
 def long_planeteer_calls(planeteer_calls)
-  planeteer_calls.any? {|word| word.length > 5}
+  planeteer_calls.any? {|word| word.length > 4}
 end
 
 long_planeteer_calls(planeteer_calls)
 
-# Use the find method to determine which planeteer_calls are divisable by 3.
+# Out of curiosity, lets find out if any planeteer_calls are divisable by 3.
 #
 # Use the find method
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-find
 
 def planeteer_calls_divisible_by_3(planeteer_calls)
-  # Your code goes here
+  planeteer_calls.find {|word| word.length % 3 == 0 }
 end
 
 planeteer_calls_divisible_by_3(planeteer_calls)
 
-# Now find the first planeteer_call that is divisable by three
+# Now find the first planeteer_call that is divisable by four
 #
 # Use the detect method
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-detect
 
-def frist_planeteer_call_divisible_by_3(planeteer_calls)
-  # Your code goes here
+def frist_planeteer_call_divisible_by_4(planeteer_calls)
+  planeteer_calls.detect {|word| word.length % 4 == 0 }
 end
 
-frist_planeteer_call_divisible_by_3(planeteer_calls)
+frist_planeteer_call_divisible_by_4(planeteer_calls)
 
-# Now find teh longest planeteer call, including the exclamation mark.
+# Now lets return the last planeteer call where we append time onto the end
+# of the last planeteer call. Something like this: "heart time"
 # 
 # Use the inject method
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-inject
 
 def longest_plaeteer_call(planeteer_calls)
-  # your code goes here
+  planeteer_calls.inject { |time, n| n + " time" }
 end
 
 longest_plaeteer_call(planeteer_calls)

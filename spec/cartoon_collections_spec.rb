@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe "Cartoon Collections" do
-  let(:planeteer_calls){["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]}
+  let(:planeteer_calls){%w(earth wind fire water heart)}
 
   describe "#roll_call_dwarves" do
     it "prints out the 7 dwarfs in a numbered list" do
@@ -37,9 +37,21 @@ describe "Cartoon Collections" do
   end
 
   describe "#planeteer_calls_divisible_by_3" do
-    it "returns all ..."
+    it "returns all planeteer_calls divisable by 3" do
+      expect(planeteer_calls_divisible_by_3(planeteer_calls)).to eq(nil)
+    end
   end
 
-  describe ""
+  describe "#frist_planeteer_call_divisible_by_4" do
+    it "finds the first planeteer_call divisable by 3" do 
+      expect(frist_planeteer_call_divisible_by_4(planeteer_calls)).to eq("wind")
+    end
+  end
+
+  describe "#longest_plaeteer_call" do
+    it "finds the longest planeteer call" do
+      expect(longest_plaeteer_call(planeteer_calls)).to eq("heart time")
+    end
+  end
 end
 
