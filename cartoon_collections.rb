@@ -56,7 +56,7 @@ summon_captain_planet(planeteer_calls)
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-any-3F
 
 def long_planeteer_calls(planeteer_calls)
-  # Your code here
+  planeteer_calls.any? {|word| word.length > 5}
 end
 
 long_planeteer_calls(planeteer_calls)
