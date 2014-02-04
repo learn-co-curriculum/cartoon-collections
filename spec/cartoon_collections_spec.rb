@@ -39,4 +39,20 @@ describe "Cartoon Collections" do
       expect(long_planeteer_calls(short_planeteer_calls)).to eq(false)
     end
   end
+
+  describe "#find_the_cheese" do
+    it "finds the CHEEeeeEEEeeeSSEEE" do
+      cheddar_cheese = %w(banana cheddar sock)
+      expect(find_the_cheese(cheddar_cheese)).to eq 'cheddar'
+
+      no_cheese = %w(ham cellphone computer)
+      expect(find_the_cheese(no_cheese)).to eq nil
+
+      camembert_cheese = %w(owl blanket camembert)
+      expect(find_the_cheese(camembert_cheese)).to eq 'camembert'
+
+      gouda_cheese = %w(gouda cheddar camembert pontoons)
+      expect(find_the_cheese(gouda_cheese)).to eq 'gouda'
+    end
+  end
 end

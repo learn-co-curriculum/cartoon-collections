@@ -71,6 +71,8 @@ long_planeteer_calls(planeteer_calls)
 # If the array of items contains no cheese, then "find_the_cheese"
 # should return nil.
 
+# Assume that all strings will be lower-case.
+
 # Use the find method
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-find
 
