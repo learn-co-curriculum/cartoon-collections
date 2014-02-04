@@ -56,8 +56,30 @@ end
 
 long_planeteer_calls(planeteer_calls)
 
+# Help Monterey Jack find the cheese!
+
+# The "find_the_cheese" method should look through an array of strings
+# and find the first string the matches one of the following
+# cheese strings: "cheddar", "gouda", or "camembert"
+#
+# Given an array that looks like: ["shoe", "rope", "gouda"],
+# the value "gouda" should be returned by "find_the_cheese".
+#
+# Given an array that looks like: ["cheddar", "rope", "pie"],
+# the value "cheddar" should be returned by "find_the_cheese".
+#
+# If the array of items contains no cheese, then "find_the_cheese"
+# should return nil.
+
 # Use the find method
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-find
+
+potentially_cheesy_items = ["umbrella", "spinach", "cheddar", "helicopter"]
+
+def find_the_cheese(potentially_cheesy_items)
+end
+
+find_the_cheese(potentially_cheesy_items)
 
 # Use the inject method
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-inject
