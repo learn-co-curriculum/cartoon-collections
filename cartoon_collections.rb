@@ -118,6 +118,10 @@ find_the_cheese(potentially_cheesy_items)
 scrooges_receipts = ["$$$", "$$$$$$$$$$", "$", "$$$$$$"]
 
 def calculate_dollar_amounts(receipts)
+  receipts.inject({}) do |memo, dollar_signs|
+    memo[dollar_signs] = "$#{dollar_signs.length}"
+    memo
+  end
 end
 
 calculate_dollar_amounts(scrooges_receipts)
