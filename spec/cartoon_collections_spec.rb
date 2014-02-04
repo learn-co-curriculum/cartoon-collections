@@ -11,9 +11,9 @@ describe "Cartoon Collections" do
 
       # This regex allows for arbitrary characters between
       # the numbering and the name
-      expect(output).to match /1.*Dopey/
-      expect(output).to match /2.*Grumpy/
-      expect(output).to match /3.*Bashful/
+      expect(output).to match(/1.*Dopey/)
+      expect(output).to match(/2.*Grumpy/)
+      expect(output).to match(/3.*Bashful/)
     end
   end
 
