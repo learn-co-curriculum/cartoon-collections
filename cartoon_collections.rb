@@ -16,7 +16,7 @@ dwarves = [
 # 3. Bashful
 # etc. for all the dwarves
 #
-# Use the each_with_index iterator:
+# Use the "each_with_index" method:
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-each_with_index
 def roll_call_dwarves(dwarves)
   # Your code here
@@ -32,7 +32,7 @@ roll_call_dwarves(dwarves)
 #
 # earth -> Earth!
 #
-# Use the map iterator (aka the collection iterator):
+# Use the "map" method (aka the "collection" method):
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-map
 
 planeteer_calls = %w(earth wind fire water heart) 
@@ -44,11 +44,10 @@ end
 
 summon_captain_planet(planeteer_calls)
 
-# The planeteer_calls are supposed to be short, so we want to 
-# find out if any of our calls have more than 4 characters 
-# including the exclamation point. 
+# The planeteer_calls are supposed to be short, so we want to
+# find out if any of our calls have more than 4 characters.
 #
-# Use the any? iterator 
+# Use the any? method
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-any-3F
 
 def long_planeteer_calls(planeteer_calls)
@@ -57,36 +56,8 @@ end
 
 long_planeteer_calls(planeteer_calls)
 
-# Out of curiosity, lets find out if any planeteer_calls are divisable by 3.
-#
 # Use the find method
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-find
 
-def planeteer_calls_divisible_by_3(planeteer_calls)
-  # Your code here
-end
-
-planeteer_calls_divisible_by_3(planeteer_calls)
-
-# Now find the first planeteer_call that is divisable by four
-#
-# Use the detect method
-# http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-detect
-
-def frist_planeteer_call_divisible_by_4(planeteer_calls)
-  # Your code here
-end
-
-frist_planeteer_call_divisible_by_4(planeteer_calls)
-
-# Now lets return the last planeteer call where we append time onto the end
-# of the last planeteer call. Something like this: "heart time"
-# 
 # Use the inject method
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-inject
-
-def longest_plaeteer_call(planeteer_calls)
-  # Your code here
-end
-
-longest_plaeteer_call(planeteer_calls)

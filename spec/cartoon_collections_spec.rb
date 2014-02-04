@@ -35,23 +35,4 @@ describe "Cartoon Collections" do
       expect(long_planeteer_calls(planeteer_calls)).to eq(true)
     end
   end
-
-  describe "#planeteer_calls_divisible_by_3" do
-    it "returns all planeteer_calls divisable by 3" do
-      expect(planeteer_calls_divisible_by_3(planeteer_calls)).to eq(nil)
-    end
-  end
-
-  describe "#frist_planeteer_call_divisible_by_4" do
-    it "finds the first planeteer_call divisable by 3" do 
-      expect(frist_planeteer_call_divisible_by_4(planeteer_calls)).to eq("wind")
-    end
-  end
-
-  describe "#longest_plaeteer_call" do
-    it "finds the longest planeteer call" do
-      expect(longest_plaeteer_call(planeteer_calls)).to eq("heart time")
-    end
-  end
 end
-
