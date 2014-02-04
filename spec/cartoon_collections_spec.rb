@@ -55,4 +55,14 @@ describe "Cartoon Collections" do
       expect(find_the_cheese(gouda_cheese)).to eq 'gouda'
     end
   end
+
+  describe "#calculate_dollar_amounts" do
+    it "creates a map of dollar signs to dollar amounts" do
+      receipts = ["$", "$$$$$", "$", "$$$"]
+
+      expect(calculate_dollar_amounts(receipts)["$"]).to eq("$1")
+      expect(calculate_dollar_amounts(receipts)["$$$$$"]).to eq("$5")
+      expect(calculate_dollar_amounts(receipts)["$$$"]).to eq("$3")
+    end
+  end
 end

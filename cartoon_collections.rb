@@ -83,5 +83,34 @@ end
 
 find_the_cheese(potentially_cheesy_items)
 
+# Help Scrooge McDuck keep track of his money!
+#
+# Scrooge likes to keep track of his money using dollar signs, but
+# his accountants prefer to see numbers.
+#
+# For $5, Scrooge will use "$$$$$".
+#
+# Given a collection of values, create a hash that maps the dollar signs to
+# numerical values to help the accountants during tax season.
+#
+# Given an array that looks like: ["$$", "$", "$$$"],
+# the following hash should be returned:
+#
+# {
+#   "$$"  => "$2",
+#   "$"   => "$1",
+#   "$$$" => "$3"
+# }
+#
 # Use the inject method
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-inject
+
+# Keep in mind that when using the inject method, the return value of the block
+# is going to be the value of memo on the next iteration.
+
+scrooges_receipts = ["$$$", "$$$$$$$$$$", "$", "$$$$$$"]
+
+def calculate_dollar_amounts(receipts)
+end
+
+calculate_dollar_amounts(scrooges_receipts)
