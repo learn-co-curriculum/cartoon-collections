@@ -112,8 +112,13 @@ find_the_cheese(potentially_cheesy_items)
 # Use the inject method
 # http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-inject
 
+# You can pass an argument to inject that will act as the accumulator.
+# In this case we want to accumulate our values using a hash.
+
 # Keep in mind that when using the inject method, the return value of the block
 # is going to be the value of memo on the next iteration.
+#
+# Using inject is complicated! Don't forget that we are here to help :)
 
 scrooges_receipts = ["$$$", "$$$$$$$$$$", "$", "$$$$$$"]
 
