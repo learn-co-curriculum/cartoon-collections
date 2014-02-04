@@ -110,6 +110,8 @@ find_the_cheese(potentially_cheesy_items)
 
 # Keep in mind that when using the inject method, the return value of the block
 # is going to be the value of memo on the next iteration.
+#
+# Using inject is complicated! Don't forget that we are here to help :)
 
 scrooges_receipts = ["$$$", "$$$$$$$$$$", "$", "$$$$$$"]
 
