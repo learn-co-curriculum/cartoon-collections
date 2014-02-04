@@ -7,3 +7,5 @@
 
 Write the body of each method in cartoon_collections.rb and make all of
 the tests pass!
+
+Be sure to read the comments in cartoon_collections.rb carefully.
