@@ -32,9 +32,9 @@ describe "Cartoon Collections" do
     it "tells us the longest planeteer call" do
       long_planeteer_calls = %w(earth wind fire water heart)
 
-      expect(long_planeteer_calls(planeteer_calls)).to eq(true)
+      expect(long_planeteer_calls(long_planeteer_calls)).to eq(true)
 
-      short_planeteer_calls = %w(wind fire water heart)
+      short_planeteer_calls = %w(wind fire)
 
       expect(long_planeteer_calls(short_planeteer_calls)).to eq(false)
     end
@@ -53,6 +53,16 @@ describe "Cartoon Collections" do
 
       gouda_cheese = %w(gouda cheddar camembert pontoons)
       expect(find_the_cheese(gouda_cheese)).to eq 'gouda'
+    end
+  end
+
+  describe "#calculate_dollar_amounts" do
+    it "creates a map of dollar signs to dollar amounts" do
+      receipts = ["$", "$$$$$", "$", "$$$"]
+
+      expect(calculate_dollar_amounts(receipts)["$"]).to eq("$1")
+      expect(calculate_dollar_amounts(receipts)["$$$$$"]).to eq("$5")
+      expect(calculate_dollar_amounts(receipts)["$$$"]).to eq("$3")
     end
   end
 end
