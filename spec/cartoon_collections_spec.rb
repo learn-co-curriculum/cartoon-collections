@@ -1,8 +1,6 @@
 require "spec_helper"
 
 describe "Cartoon Collections" do
-  let(:planeteer_calls){%w(earth wind fire water heart)}
-
   describe "#roll_call_dwarves" do
     it "prints out the 7 dwarfs in a numbered list" do
       dwarves = ["Dopey", "Grumpy", "Bashful"]
@@ -32,7 +30,13 @@ describe "Cartoon Collections" do
 
   describe "#long_planeteer_calls" do
     it "tells us the longest planeteer call" do
+      long_planeteer_calls = %w(earth wind fire water heart)
+
       expect(long_planeteer_calls(planeteer_calls)).to eq(true)
+
+      short_planeteer_calls = %w(wind fire water heart)
+
+      expect(long_planeteer_calls(short_planeteer_calls)).to eq(false)
     end
   end
 end
