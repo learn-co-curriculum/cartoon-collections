@@ -109,16 +109,13 @@ find_the_cheese(potentially_cheesy_items)
 #   "$$$" => "$3"
 # }
 #
-# Use the inject method
-# http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-inject
+# Use the each_with_object method
+# http://www.ruby-doc.org/core-2.1.1/Enumerable.html#method-i-each_with_object
 
-# You can pass an argument to inject that will act as the accumulator.
-# In this case we want to accumulate our values using a hash.
-
-# Keep in mind that when using the inject method, the return value of the block
-# is going to be the value of memo on the next iteration.
+# each_with_object takes an object as an argument.
 #
-# Using inject is complicated! Don't forget that we are here to help :)
+# each_with_object will iterate through a collection providing
+# the object parameter as a block paramter to each iteration.
 
 scrooges_receipts = ["$$$", "$$$$$$$$$$", "$", "$$$$$$"]
 
