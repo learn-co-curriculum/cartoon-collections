@@ -1,7 +1,7 @@
 ---
   tags: enumerable, iteration, map, collection, each_with_index, wip
   languages: ruby
-resources: 2
+  resources: 2
 ---
 
 ## Instructions
