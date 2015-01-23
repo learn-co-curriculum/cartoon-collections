@@ -88,7 +88,11 @@ find_the_cheese(snacks)
 soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 find_the_cheese(soup)
 #=> "cheddar"
+```
 
+If, sadly, a list of ingredients does not include cheese, return `nil`:
+
+```ruby
 ingredients = ["garlic", "rosemary", "bread"]
 find_the_cheese(snacks)
 #=> nil
