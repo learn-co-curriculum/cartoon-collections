@@ -69,7 +69,7 @@ long_planeteer_calls(assorted_words)
 #=> true
 ```
 
-Once the test for this method is passing, move on to the second-to-last-last method.
+Once the test for this method is passing, move on to the last method.
 
 #### Method 4 - Find the Cheese
 
