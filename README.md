@@ -34,6 +34,8 @@ It should then print out each name using `puts`. The print-out should look like 
 > 3. Bashful
 > 4. Grumpy
 
+Look into the [each with index](http://ruby-doc.org/core-2.2.0/Enumerable.html#method-i-each_with_index) method. 
+
 Once the test for this method is passing, move on to the next method.
 
 #### Method 2 - Summon Captain Planet
@@ -53,6 +55,8 @@ summon_captain_planet(planeteer_calls)
 #=> ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 ```
 
+The `map` method might be appropriate for this task, take a look at it [here](http://stackoverflow.com/a/12084555/2890716) and [here](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-map).
+
 Once the test for this method is passing, move on to the next method, long planeteer calls.
 
 #### Method 3 - Long Planeteer Calls
@@ -68,6 +72,8 @@ assorted_words = ["two", "go", "industrious", "bop"]
 long_planeteer_calls(assorted_words)
 #=> true
 ```
+
+Checkout the [Ruby docs on arrays](http://www.ruby-doc.org/core-2.2.0/Array.html) for a hint.
 
 Once the test for this method is passing, move on to the last method.
 
@@ -98,7 +104,7 @@ find_the_cheese(snacks)
 #=> nil
 ```
 
-You can assume that all strings will be lower-case. This method asks you to return a value instead of printing it so keep that in mind.
+You can assume that all strings will be lower-case. Take a look a the [include](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-include-3F) method for a hint. This method asks you to return a value instead of printing it so keep that in mind.
 
 ## Resources
 
