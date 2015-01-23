@@ -36,6 +36,8 @@ should look like this:
 
 Look into the [`each_with_index`](http://ruby-doc.org/core/Enumerable.html#method-i-each_with_index) method.
 
+Look into the [each with index](http://ruby-doc.org/core-2.2.0/Enumerable.html#method-i-each_with_index) method.
+
 Once the test for this method is passing, move on to the next method.
 
 #### Method 2 — `summon_captain_planet`
