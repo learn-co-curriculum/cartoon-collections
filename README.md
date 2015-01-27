@@ -42,10 +42,10 @@ Once the test for this method is passing, move on to the next method.
 
 ![captain-planet](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/cartoon-collections/captain-planet.jpeg)
 
-This method should accept an array of planteer calls, like this:
+This method should accept an array of planeteer calls, like this:
 
 ```ruby
-planteer_calls = ["earth", "wind", "fire", "water", "heart"]
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 ```
 
 It should then capitalize each element and add an exclamation point at the end. The return value of this method should be an array, in this example:

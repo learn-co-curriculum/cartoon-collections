@@ -29,7 +29,7 @@ describe "Cartoon Collections" do
   end
 
   describe "#long_planeteer_calls" do
-    it "tells us the longest planeteer call" do
+    it "tells us if any calls are longer than 4 characters" do
       long_planeteer_calls = %w(earth wind fire water heart)
 
       expect(long_planeteer_calls(long_planeteer_calls)).to eq(true)
