@@ -18,25 +18,31 @@ describe "Cartoon Collections" do
   end
 
   describe "#summon_captain_planet" do
-    it "makes things more exciting" do
-      words = %w(apple banana orange)
+    it "returns an array with the same number of elements that it was given" do
+      veggies = %w(carrot cucumber pepper)
+      result = summon_captain_planet(veggies)
+      expect(result.class).to eq(Array)
+      expect(result.length).to eq(3)
+    end
 
-      result = summon_captain_planet(words)
-      expect(result).to include 'Apple!'
-      expect(result).to include 'Banana!'
-      expect(result).to include 'Orange!'
+    it "capitalizes each element and adds an exclamation mark" do
+      fruits = %w(apple banana orange)
+      result = summon_captain_planet(fruits)
+      ['Apple!', 'Banana!', 'Orange!'].each { |w| expect(result).to include w }
+
+      veggies = %w(carrot cucumber pepper)
+      result = summon_captain_planet(veggies)
+      ["Carrot!", "Cucumber!", "Pepper!"].each { |w| expect(result).to include w }
     end
   end
 
-  describe "#long_planeteer_calls" do
+  describe "#long_planteer_calls" do
     it "tells us if any calls are longer than 4 characters" do
-      long_planeteer_calls = %w(earth wind fire water heart)
-
-      expect(long_planeteer_calls(long_planeteer_calls)).to eq(true)
+      long_planteer_calls = %w(earth wind fire water heart)
+      expect(long_planteer_calls(long_planteer_calls)).to eq(true)
 
       short_planeteer_calls = %w(wind fire)
-
-      expect(long_planeteer_calls(short_planeteer_calls)).to eq(false)
+      expect(long_planteer_calls(short_planeteer_calls)).to eq(false)
     end
   end
 
