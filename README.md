@@ -73,6 +73,8 @@ long_planeteer_calls(assorted_words)
 #=> true
 ```
 
+Notice the return value of this method is either false or true, depending on the array it was given as an argument.
+
 Checkout the [Ruby docs on arrays](http://www.ruby-doc.org/core-2.2.0/Array.html) for a hint.
 
 Once the test for this method is passing, move on to the last method.
@@ -104,7 +106,7 @@ find_the_cheese(ingredients)
 #=> nil
 ```
 
-You can assume that all strings will be lower-case. Take a look a the [include](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-include-3F) method for a hint. This method asks you to return a value instead of printing it so keep that in mind.
+You can assume that all strings will be lower-case. Take a look a the [include](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-include-3F) method for a hint. This method asks you to return a string value instead of printing it so keep that in mind.
 
 ## Resources
 
