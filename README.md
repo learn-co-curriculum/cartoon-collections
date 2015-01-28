@@ -100,7 +100,7 @@ If, sadly, a list of ingredients does not include cheese, return `nil`:
 
 ```ruby
 ingredients = ["garlic", "rosemary", "bread"]
-find_the_cheese(snacks)
+find_the_cheese(ingredients)
 #=> nil
 ```
 
