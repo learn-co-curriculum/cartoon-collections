@@ -14,7 +14,7 @@ There are four methods to complete in this lab:
 
 1. Dwarf Roll Call
 2. Summon Captain Planet
-3. Long Planteer Calls
+3. Long Planeteer Calls
 4. Find the Cheese
 
 #### Method 1 - Dwarf Roll Call
