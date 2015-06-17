@@ -1,12 +1,7 @@
----
-tags: enumerable, iteration, map, collection, each_with_index
-languages: ruby
-resources: 2
----
-
 ## Objectives
-
-You're going to get familiar with iterating through arrays.
+1. Get familiar iterating through arrays with enumerator methods like collect/map, find, and include. 
+2. Build methods and control their return values
+3. Practice if/else statements
 
 ## Instructions
 
@@ -14,7 +9,7 @@ There are four methods to complete in this lab:
 
 1. Dwarf Roll Call
 2. Summon Captain Planet
-3. Long Planteer Calls
+3. Long Planeteer Calls
 4. Find the Cheese
 
 #### Method 1 - Dwarf Roll Call
@@ -55,7 +50,7 @@ summon_captain_planet(planeteer_calls)
 #=> ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 ```
 
-The `map` method might be appropriate for this task, take a look at it [here](http://stackoverflow.com/a/12084555/2890716) and [here](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-map).
+The `map` or `collect` method might be appropriate for this task, take a look at it [here](http://stackoverflow.com/a/12084555/2890716) and [here](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-map).
 
 Once the test for this method is passing, move on to the next method, long planeteer calls.
 
@@ -83,7 +78,7 @@ Once the test for this method is passing, move on to the last method.
 
 ![dancing-mice](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/cartoon-collections/cheese.jpg)
 
-The "find_the_cheese" method should accept an array of strings. It should then look through these strings and return the first string the is a type of cheese. The types of cheese that appear are  cheddar, gouda, and camembert.
+The `find_the_cheese` method should accept an array of strings. It should then look through these strings to find and return the first string the is a type of cheese. The types of cheese that appear are  cheddar, gouda, and camembert.
 
 For example:
 
@@ -110,4 +105,6 @@ You can assume that all strings will be lower-case. Take a look a the [include](
 
 ## Resources
 
-* [Programming Ruby 1.9](http://books.flatironschool.com/books/11?page=459) - [Enumerable](http://books.flatironschool.com/books/11?page=459), page 459
+* The [`.include` method](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-include-3F)
+* The [`.each_with_index` method](http://ruby-doc.org/core-2.2.0/Enumerable.html#method-i-each_with_index)
+* The [`.map` method](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-map)

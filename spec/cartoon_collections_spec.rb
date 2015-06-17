@@ -47,7 +47,7 @@ describe "Cartoon Collections" do
   end
 
   describe "#find_the_cheese" do
-    it "finds the CHEEeeeEEEeeeSSEEE" do
+    it "finds takes in an argument of an array and returns the first item in that array that is a cheese" do
       cheddar_cheese = %w(banana cheddar sock)
       expect(find_the_cheese(cheddar_cheese)).to eq 'cheddar'
 
