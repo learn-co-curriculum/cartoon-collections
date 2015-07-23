@@ -82,7 +82,7 @@ Once the test for this method is passing, move on to the last method.
 
 ![dancing-mice](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/cartoon-collections/cheese.jpg)
 
-The `find_the_cheese` method should accept an array of strings. It should then look through these strings to find and return the first string the is a type of cheese. The types of cheese that appear are  cheddar, gouda, and camembert.
+The `find_the_cheese` method should accept an array of strings. It should then look through these strings to find and return the first string the is a type of cheese. The types of cheese that appear are  `"cheddar"`, `"gouda"`, and `"camembert"`.
 
 For example:
 
@@ -105,7 +105,7 @@ find_the_cheese(ingredients)
 #=> nil
 ```
 
-You can assume that all strings will be lower-case. Take a look a the [include](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-include-3F) method for a hint. This method asks you to return a string value instead of printing it so keep that in mind.
+You can assume that all strings will be lowercase. Take a look a the [`.include`](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-include-3F) method for a hint. This method asks you to return a string value instead of printing it so keep that in mind.
 
 ## Resources
 
