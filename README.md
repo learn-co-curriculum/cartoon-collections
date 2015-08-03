@@ -36,8 +36,6 @@ should look like this:
 
 Look into the [`each_with_index`](http://ruby-doc.org/core/Enumerable.html#method-i-each_with_index) method.
 
-Look into the [each with index](http://ruby-doc.org/core-2.2.0/Enumerable.html#method-i-each_with_index) method.
-
 Once the test for this method is passing, move on to the next method.
 
 #### Method 2 — `summon_captain_planet`
@@ -80,15 +78,10 @@ long_planeteer_calls(assorted_words)
 #=> true
 ```
 
-<<<<<<< HEAD
 Notice the return value of this method is either `true` or `false`, depending on
 the array it was given as an argument.
 
-# Checkout the [Ruby docs on arrays][arrays] for a hint.
-
-Checkout the [Ruby docs on arrays](http://www.ruby-doc.org/core-2.2.0/Array.html) for a hint.
-
-> > > > > > > update readme
+Checkout the [Ruby docs on arrays][arrays] for a hint.
 
 Once the test for this method is passing, move on to the last method.
 
