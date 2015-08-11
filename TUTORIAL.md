@@ -2,7 +2,7 @@
 
 ### `roll_call_dwarves`
 
-The first error message we are getting for this method is ` wrong number of arguments (1 for 0)`.
+The first error message we are getting for this method is `wrong number of arguments (1 for 0)`.
 
 To solve this we need to pass in an argument to our method. This argument is an array.
 
@@ -10,8 +10,8 @@ To solve this we need to pass in an argument to our method. This argument is an 
 def roll_call_dwarves(dwarves)
 end
 ```
-Now we need to print out the seven dwarves in a numbered list.
 
+Now we need to print out the seven dwarves in a numbered list.
 
 ```ruby
 def roll_call_dwarves(dwarves)
@@ -25,14 +25,14 @@ By using the `each.with_index(1)` method we are passing in the index we want our
 
 ### `#summon_captain_planet`
 
-Rspec is testing if our method is returning an array with the same number of elements that it was given. Whenever we want to return a new array, we can either use the `.map` or the `.collect` method. 
-
+Rspec is testing if our method is returning an array with the same number of elements that it was given. Whenever we want to return a new array, we can either use the `.map` or the `.collect` method.
 
 ```ruby
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map { |call| call.capitalize + "!" }
 end
 ```
+
 Now our method is returning an array where every call is capitalized and an `!` is added to the end.
 
 ### `#long_planteer_calls`
