@@ -21,7 +21,7 @@ def roll_call_dwarves(dwarves)
 end
 ```
 
-By using the `each.with_index(1)` method we are passing in the index we want our array to start add.
+By using the `each.with_index(1)` method we are passing in the index we want our array to start at.
 
 ### `#summon_captain_planet`
 
@@ -37,7 +37,7 @@ Now our method is returning an array where every call is capitalized and an `!` 
 
 ### `#long_planteer_calls`
 
-This method should return any calls that are longer than 4 characters.
+This method should return `true` if there are any calls that are longer than 4 characters, otherwise it should return `false`. We can use Ruby's `any?` method to accomplish this.
 
 ```ruby
 def long_planteer_calls(planeteer_calls)
@@ -47,7 +47,7 @@ end
 
 ### `find_the_cheese`
 
-This method will go over the array we passed in, that contains potentially cheeses and compare them to an array that contains cheeses and will return the matching item.
+This method will go over the array we passed in that contains potentially cheesy items, and see if each item is included in another array of cheeses. It will return the first item that matches one of the cheeses.
 
 ```ruby
 def find_the_cheese(potentially_cheesy_items)
