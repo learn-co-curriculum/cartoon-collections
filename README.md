@@ -40,8 +40,7 @@ Once the test for this method is passing, move on to the next method.
 
 ![captain-planet](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/cartoon-collections/captain-planet.jpeg)
 
-This method should accept an array argument of planeteer calls that will look like this
-:
+This method should accept an array argument of planeteer calls that will look like this:
 
 ```ruby
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
