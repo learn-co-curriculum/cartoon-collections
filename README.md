@@ -104,7 +104,7 @@ find_the_cheese(ingredients)
 #=> nil
 ```
 
-You can assume that all strings will be lowercase. Take a look a the [`.include`](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-include-3F) method for a hint. This method asks you to return a string value instead of printing it so keep that in mind.
+You can assume that all strings will be lowercase. Take a look at the [`.include`](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-include-3F) method for a hint. This method asks you to return a string value instead of printing it so keep that in mind.
 
 ## Resources
 
