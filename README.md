@@ -32,7 +32,7 @@ It should then print out each name using `puts`. The print-out should look like 
 > 3. Bashful
 > 4. Grumpy
 
-Look into the [`each_with_index`](http://ruby-doc.org/core-2.2.2/Enumerable.html#method-i-each_with_index) method. 
+Look into the [`each_with_index`](http://ruby-doc.org/core/Enumerable.html#method-i-each_with_index) method. 
 
 Once the test for this method is passing, move on to the next method.
 
@@ -53,7 +53,7 @@ summon_captain_planet(planeteer_calls)
 #=> ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 ```
 
-The `.map` or `.collect` method might be appropriate for this task, take a look at it [here](http://stackoverflow.com/a/12084555/2890716) and [here](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-map).
+The `.map` or `.collect` method might be appropriate for this task, take a look at it [here](http://stackoverflow.com/a/12084555/2890716) and [here](http://ruby-doc.org/core/Array.html#method-i-map).
 
 Once the test for this method is passing, move on to the next method, long planeteer calls.
 
@@ -73,7 +73,7 @@ long_planeteer_calls(assorted_words)
 
 Notice the return value of this method is either `true` or `false`, depending on the array it was given as an argument.
 
-Checkout the [Ruby docs on arrays](http://www.ruby-doc.org/core-2.2.2/Array.html) for a hint.
+Checkout the [Ruby docs on arrays](http://ruby-doc.org/core/Array.html) for a hint.
 
 Once the test for this method is passing, move on to the last method.
 
@@ -104,11 +104,12 @@ find_the_cheese(ingredients)
 #=> nil
 ```
 
-You can assume that all strings will be lowercase. Take a look at the [`.include`](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-include-3F) method for a hint. This method asks you to return a string value instead of printing it so keep that in mind.
+You can assume that all strings will be lowercase. Take a look at the [`.include`](http://ruby-doc.org/core/Array.html#method-i-include-3F) method for a hint. This method asks you to return a string value instead of printing it so keep that in mind.
 
 ## Resources
 
-* The [`.include` method](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-include-3F)
-* The [`.each_with_index` method](http://ruby-doc.org/core-2.2.0/Enumerable.html#method-i-each_with_index)
-* The [`.map` method](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-map)
+* The [`.each_with_index` method](http://ruby-doc.org/core/Enumerable.html#method-i-each_with_index)
+* The [`.map` method](http://ruby-doc.org/core/Array.html#method-i-map)
+* The [`.include` method](http://ruby-doc.org/core/Array.html#method-i-include-3F)
+
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/cartoon-collections' title='Cartoon Collections'>Cartoon Collections</a> on Learn.co and start learning to code for free.</p>
