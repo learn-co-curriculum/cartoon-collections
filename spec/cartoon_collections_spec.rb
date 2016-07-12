@@ -25,20 +25,20 @@ describe "Cartoon Collections" do
       expect(result.length).to eq(3)
     end
 
-    it "capitalizes each element and adds an exclamation mark" do
+    it "capitalizes each element and adds an exclamation mark (test 1)" do
       fruits = ["apple", "banana", "orange"]
       result = summon_captain_planet(fruits)
       ['Apple!', 'Banana!', 'Orange!'].each { |w| expect(result).to include w }
     end
 
-    it "capitalizes each element and adds an exclamation mark" do
+    it "capitalizes each element and adds an exclamation mark (test 2)" do
       veggies = ["carrot", "cucumber", "pepper"]
       result = summon_captain_planet(veggies)
       ["Carrot!", "Cucumber!", "Pepper!"].each { |w| expect(result).to include w }
     end
   end
   
-  describe "#long_planteer_calls" do 
+  describe "#long_planeteer_calls" do 
     it "returns true if any calls are longer than 4 characters" do 
       long_planeteer_calls = ["earth", "wind", "fire", "water", "heart"] 
       expect(long_planeteer_calls(long_planeteer_calls)).to eq(true) 
@@ -57,10 +57,9 @@ describe "Cartoon Collections" do
       expect(find_the_cheese(cheddar_cheese)).to eq 'cheddar'
     end
 
-    it "returns nill if the array does not contain a type of cheese" do
+    it "returns nil if the array does not contain a type of cheese" do
       no_cheese = ["ham", "cellphone", "computer"]
       expect(find_the_cheese(no_cheese)).to eq nil
     end
   end
-
 end
