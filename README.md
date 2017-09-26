@@ -25,7 +25,7 @@ This method should accept an array of dwarf names, for instance:
 ["Doc", "Dopey", "Bashful", "Grumpy"]
 ```
 
-It should then print out each name using `puts`. The print-out should look like this:
+It should then print out each name, in number order, using `puts`. The print-out should look like this:
 
 > 1. Doc
 > 2. Dopey
@@ -112,4 +112,4 @@ You can assume that all strings will be lowercase. Take a look at the [`.include
 * The [`.map` method](http://ruby-doc.org/core/Array.html#method-i-map)
 * The [`.include` method](http://ruby-doc.org/core/Array.html#method-i-include-3F)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/cartoon-collections' title='Cartoon Collections'>Cartoon Collections</a> on Learn.co and start learning to code for free.</p>
+<p class='util--hide'>View <a href='https://learn.co/lessons/cartoon-collections'>Cartoon Collections Lab</a> on Learn.co and start learning to code for free.</p>
