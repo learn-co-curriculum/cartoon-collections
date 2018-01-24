@@ -40,7 +40,7 @@ describe "Cartoon Collections" do
 
   describe "#long_planeteer_calls" do
     it "returns true if any calls are longer than 4 characters" do
-      calls_long = ["earth", "wind", "fire", "water", "heart"]
+      calls_long = ["axe", "earth", "wind", "fire", "water", "heart"]
       expect(long_planeteer_calls(calls_long)).to eq(true)
     end
 
