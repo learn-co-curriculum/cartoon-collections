@@ -45,16 +45,19 @@ describe "Cartoon Collections" do
     end
 
     it "returns false if all calls are shorter than 4 characters" do
-    calls_short = ["wind", "fire", "tree", "axe", "code"]
-    expect(long_planeteer_calls(calls_short)).to eq(false)
+      calls_short = ["wind", "fire", "tree", "axe", "code"]
+      expect(long_planeteer_calls(calls_short)).to eq(false)
     end
 
   end
 
   describe "#find_the_cheese" do
     it "returns the first element of the array that is cheese" do
-      cheddar_cheese = ["banana", "cheddar", "sock"]
-      expect(find_the_cheese(cheddar_cheese)).to eq 'cheddar'
+      contains_cheddar = ["banana", "cheddar", "sock"]
+      expect(find_the_cheese(contains_cheddar)).to eq 'cheddar'
+
+      contains_gouda = ["potato", "gouda", "camembert"]
+      expect(find_the_cheese(contains_gouda)).to eq 'gouda'
     end
 
     it "returns nil if the array does not contain a type of cheese" do
