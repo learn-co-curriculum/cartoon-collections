@@ -7,10 +7,8 @@ end
 
 def summon_captain_planet(names)# code an argument here
   # Your code here
-  i = 0
-  new_array = []
-  while i < names.length
-    new_array << names[i].capitalize() + "!"
+  names.collect do |call| 
+    call.capitalize + "!"
   end
 end
 
