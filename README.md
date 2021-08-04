@@ -1,4 +1,4 @@
-## Cartoon Collections
+# Cartoon Collections
 
 ## Objectives
 
@@ -11,12 +11,12 @@
 
 There are four methods to complete in this lab:
 
-1.  `roll_call_dwarves`
-2.  `summon_captain_planet`
-3.  `long_planeteer_calls`
-4.  `find_the_cheese`
+1. `roll_call_dwarves`
+2. `summon_captain_planet`
+3. `long_planeteer_calls`
+4. `find_the_cheese`
 
-#### Method 1 — `roll_call_dwarves`
+### Method 1 — `roll_call_dwarves`
 
 ![dwarves](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/cartoon-collections/dwarves.jpg)
 
@@ -29,16 +29,18 @@ This method should accept an array of dwarf names, for instance:
 It should then print out each name, in number order, using `puts`. The print-out
 should look like this:
 
-> 1.  Doc
-> 2.  Dopey
-> 3.  Bashful
-> 4.  Grumpy
+```txt
+1.  Doc
+2.  Dopey
+3.  Bashful
+4.  Grumpy
+```
 
 Look into the [`each_with_index`](http://ruby-doc.org/core/Enumerable.html#method-i-each_with_index) method.
 
 Once the test for this method is passing, move on to the next method.
 
-#### Method 2 — `summon_captain_planet`
+### Method 2 — `summon_captain_planet`
 
 ![captain-planet](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/cartoon-collections/captain-planet.jpeg)
 
@@ -52,9 +54,9 @@ planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 It should then capitalize each element and add an exclamation point at the end.
 The return value of this method should be an array, in this example:
 
-```
+```rb
 summon_captain_planet(planeteer_calls)
-#=> ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+# => ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 ```
 
 The `.map` or `.collect` method might be appropriate for this task, take a look
@@ -63,7 +65,7 @@ at it [here][so] and [here][ruby-doc].
 Once the test for this method is passing, move on to the next method, long
 planeteer calls.
 
-#### Method 3 — `long_planeteer_calls`
+### Method 3 — `long_planeteer_calls`
 
 The `long_planeteer_calls` method should accept an array of calls. The method
 should tell us if any of the calls are longer than four characters. For example:
@@ -128,5 +130,3 @@ value instead of printing it so keep that in mind.
 [ruby-doc]: http://ruby-doc.org/core/Array.html#method-i-map
 [arrays]: http://ruby-doc.org/core/Array.html
 [include]: http://ruby-doc.org/core/Array.html#method-i-include-3F
-
-
